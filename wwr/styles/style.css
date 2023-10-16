@@ -1,7 +1,6 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    
 }
 
 #background {
@@ -15,10 +14,7 @@ body {
 nav a {
     text-align: center;
     color: #fcfbfb;
-}
-
-nav a {
-    text-decoration: none;
+    text-decoration: none; /* Combine the text-decoration property with the nav a selector */
 }
 
 footer a:hover {
