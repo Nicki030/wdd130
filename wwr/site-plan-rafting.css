@@ -7,8 +7,10 @@
     --secondary-color: #e7c24f;
     --accent1-color: #a43312; 
     --accent2-color: #381d2a; 
-    --heading-font: 'Roboto', sans-serif; 
+
+    --heading-font: 'montserrat', sans-serif; 
     --paragraph-font: 'Roboto', sans-serif; 
+
     --nav-background-color: #aabd8c; 
     --nav-link-color: #fff; 
     --nav-hover-link-color: #000; 
@@ -18,7 +20,7 @@
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
-    margin: 0 auto;
+    
     padding: 20px;
   }
 
