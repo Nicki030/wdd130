@@ -1,41 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&play=swap');
+
 
 :root {
-  --primary-color: #396e94;
-  --secondary-color: #e7c24f;
-  --accent1-color: #2da56d;
-  --accent2-color: #381d2a;
+    --primary-color: #396e94;
+    --secondary-color: #e7c24f;
+    --accent1-color: #2da56d; 
+    --accent2-color: #381d2a; 
 
-  --heading-font: 'Montserrat', sans-serif;
-  --paragraph-font: 'Roboto', sans-serif;
+    --heading-font: 'montserrat', sans-serif; 
+    --paragraph-font: 'Roboto', sans-serif; 
 
-  --nav-background-color: #aabd8c;
-  --nav-link-color: #fff;
-  --nav-hover-link-color: #000;
-  --nav-hover-background-color: #f0f0f0;
-}
-
+    --nav-background-color: #aabd8c; 
+    --nav-link-color: #fff; 
+    --nav-hover-link-color: #000; 
+    --nav-hover-background-color: #f0f0f0;
+  }
+  
 body {
-  font-family: var(--paragraph-font);
-  max-width: 960px;
-  padding: 20px;
-}
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    
+    padding: 20px;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--primary-color);
-}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
 
-header {
-  padding: 20px;
-  background-color: var(--accent1-color);
-}
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
 
-p {
-  padding: 25px;
-}
+  p {
+    padding: 25px;
+  }
 
-nav {
+  nav {
   background-color: var(--nav-background-color);
   font-size: 1.2rem;
   display: flex;
@@ -48,8 +51,7 @@ nav a {
   padding: 1rem;
 }
 
-nav a:link,
-nav a:visited {
+nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 
@@ -57,3 +59,11 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+
+
+
+
+
+
+
+  
