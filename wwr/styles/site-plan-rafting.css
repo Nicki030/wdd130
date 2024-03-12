@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&play=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap')
 
 
 :root {
@@ -15,7 +15,10 @@
     --nav-hover-link-color: #000; 
     --nav-hover-background-color: #f0f0f0;
   }
-  
+  .madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
