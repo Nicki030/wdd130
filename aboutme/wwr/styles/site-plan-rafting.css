@@ -1,11 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&play=swap');
 
 
 :root {
     --primary-color: #396e94;
     --secondary-color: #e7c24f;
-    --accent1-color: #2da56d; 
+    --accent1-color: #a43312; 
     --accent2-color: #381d2a; 
 
     --heading-font: 'montserrat', sans-serif; 
@@ -62,8 +61,3 @@ nav a:hover {
 
 
 
-
-
-
-
-  
