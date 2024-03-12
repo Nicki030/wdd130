@@ -5,7 +5,7 @@
 :root {
     --primary-color: #396e94;
     --secondary-color: #e7c24f;
-    --accent1-color: #3ad38c; 
+    --accent1-color: #2da56d; 
     --accent2-color: #381d2a; 
 
     --heading-font: 'montserrat', sans-serif; 
@@ -63,28 +63,6 @@ nav a:hover {
 
 
 
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-  }
-  
-  nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-  }
-  
-  nav a:link,
-  nav a:visited {
-    color: var(--nav-link-color);
-  }
-  
-  nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-  }
 
 
 
