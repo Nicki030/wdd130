@@ -68,11 +68,9 @@ footer {
 }
 
 /* Class Selectors */
-/* This section contains styles for custom classes used in the HTML */
-
 .box {
   margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, .1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1rem;
   background-color: #eee;
   color: #000;
