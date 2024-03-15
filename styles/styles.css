@@ -1,16 +1,14 @@
-* Reset styles */
+/* Reset styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 body {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 
 nav {
   background-color: steelblue;
@@ -23,17 +21,14 @@ nav a {
   padding: 10px;
 }
 
-
 h1 {
   color: steelblue;
 }
-
 
 main {
   max-width: 800px;
   margin: 0 auto;
 }
-
 
 main img {
   width: 150px;
@@ -45,11 +40,9 @@ main img {
   margin: 0 0 1rem 1rem;
 }
 
-
 p {
   margin: 1rem;
 }
-
 
 aside {
   width: 20em;
@@ -68,7 +61,6 @@ aside h2 {
   left: 150px;
 }
 
-
 footer {
   margin-top: 1em;
   border-top: 1px solid #000;
@@ -76,14 +68,15 @@ footer {
 }
 
 /* Class Selectors */
+/* This section contains styles for custom classes used in the HTML */
+
 .box {
   margin: 1rem;
-  border: 1px solid rgba(0, 0, 0,.1);
+  border: 1px solid rgba(0, 0, 0, .1);
   padding: 1rem;
   background-color: #eee;
   color: #000;
 }
-
 
 .indent {
   margin-left: 1rem;
