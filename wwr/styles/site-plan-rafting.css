@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
-
 :root {
     --primary-color: #48789b;
     --secondary-color: #e7c24f;
@@ -62,3 +61,4 @@ nav a:hover {
 aside img {
     width: 200px;
     height: auto;
+}
