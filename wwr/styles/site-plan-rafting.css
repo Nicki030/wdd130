@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&display=swap');
 
 :root {
     --primary-color: #48789b;
@@ -7,7 +7,7 @@
     --accent2-color: #381d2a; 
 
     --heading-font: 'Madimi One', sans-serif; 
-    --paragraph-font: 'optional-2nd-font-name', sans-serif; 
+    --paragraph-font: 'Lato', sans-serif; 
 
     --nav-background-color: #aabd8c; 
     --nav-link-color: #fff; 
