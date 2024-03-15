@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+aside img {
+    width: 200px;
+    height: auto;
+}
+
 header {
     padding: 20px;
     background-color: var(--accent1-color);
@@ -58,7 +63,3 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-aside img {
-    width: 200px;
-    height: auto;
-}
