@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 
-
+body{
+  font-size: 16px; 
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
 nav{
@@ -35,25 +38,29 @@ main img {
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  float: right;
+  margin: 0 0 1rem 1rem;
 }
 
 p {
-  padding: 0;
+  margin: 1rem;
 }
 
 aside {
   width: 20em;
-  margin: 1em;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 1em;
-  background-color: #eee;
-  color: #333;
-  text-align: center;
+ text-align: center;
+ position: relative;
 }
 
 aside img {
   width: 200px;
   height: auto;
+}
+
+aside h2{
+  position: absolute;
+  top: 67px;
+  left: 150px;
 }
 
 footer {
@@ -71,4 +78,8 @@ footer {
   background-color: #eee;
   color: #000;
 
+}
+
+.indent{
+  margin-left: 1rem;
 }
