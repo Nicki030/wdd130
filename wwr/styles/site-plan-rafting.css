@@ -26,6 +26,19 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+main {
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
+  main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+  }
+
 header {
     padding: 20px;
     background-color: var(--accent1-color);
@@ -57,15 +70,3 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-main {
-    max-width: 800px; 
-    margin: 0 auto; 
-  }
-  
-  main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-  }
