@@ -56,6 +56,7 @@ nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
 
     main {
         max-width: 800px; 
@@ -70,4 +71,3 @@ nav a:hover {
         box-shadow: 0 0 30px gray;
       }
       
-}
