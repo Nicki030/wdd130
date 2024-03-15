@@ -21,10 +21,14 @@ body {
     padding: 20px;
 }
 
-main img [src="Raft.jpg"]{
+main img {
     width: 150px;
     height: auto;
     padding: 2px;
+  }
+
+  main img[src="Raft.jpg"] {
+    width: 200px;
   }
 
 h1, h2, h3, h4, h5, h6 {
