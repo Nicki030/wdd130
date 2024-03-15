@@ -21,7 +21,7 @@ body {
     padding: 20px;
 }
 
-main img {
+main img [src="Raft.jpg"]{
     width: 150px;
     height: auto;
     padding: 2px;
