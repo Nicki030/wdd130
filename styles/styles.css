@@ -29,17 +29,17 @@ nav a {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #fff; /* shorthand for white */
+  color: #fff; 
 }
 
 h1 {
-  border-bottom: 2px solid #333; /* Adjust the color and thickness as needed */
+  border-bottom: 2px solid #333; 
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 20rem; /* Adjust the column widths as needed */
-  gap: 1rem; /* Add some gap between the columns */
+  grid-template-columns: 1fr 20rem; 
+  gap: 1rem; 
 }
 
 main {
