@@ -59,6 +59,12 @@ aside h2 {
   position: absolute;
   top: 67px;
   left: 150px;
+
+}
+
+header, footer {
+  max-width: 840px;
+  margin: 0 auto;
 }
 
 footer {
@@ -79,3 +85,4 @@ footer {
 .indent {
   margin-left: 1rem;
 }
+
