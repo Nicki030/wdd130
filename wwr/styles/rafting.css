@@ -36,7 +36,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-/* Main Content Styles */
 main {
   max-width: 800px;
   margin: 20px auto;
@@ -61,11 +60,10 @@ footer {
 }
 
 .sociallinks a {
-  margin-right: 15px; /* Adjust spacing between social icons */
+  margin-right: 15px; 
 }
 
 .sociallinks a img {
   width: 30px;
   height: 30px;
 }
-
