@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Rafting Company</title>
+  <link rel="stylesheet" href="styles/rafting.css">
+  <meta name="description" content="Contact Rafting Company for inquiries about our services. Reach out to us for bookings and more.">
+  <meta name="author" content="Nicole">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Rafting Company Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Company Information</h2>
+      <p>Address: 123 River Road, Adventure Town</p>
+      <p>Phone: +123 456 7890</p>
+      <p>Email: info@raftingcompany.com</p>
+      <div class="map">
+        <!-- Embed Google Map here -->
+      </div>
+    </section>
+
+    <section>
+      <h2>Employee Profiles</h2>
+      <div class="employee">
+        <img src="images/employee1.jpg" alt="Employee 1">
+        <p>Title: Title of Employee</p>
+      </div>
+      <div class="employee">
+        <img src="images/employee2.jpg" alt="Employee 2">
+        <p>Title: Title of Employee</p>
+      </div>
+      <div class="employee">
+        <img src="images/employee3.jpg" alt="Employee 3">
+        <p>Title: Title of Employee</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact Form</h2>
+      <form action="submit_contact.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label>Purpose of Message:</label><br>
+        <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+        <label for="general">General Inquiry</label><br>
+        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+        <label for="reservation">Reservation Question</label><br>
+        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+        <label for="suggestion">Website Suggestion</label><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+        <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+        <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Rafting Company. Designed by Nicole A. Johnston</p>
+    <nav class="sociallinks">
+      <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+      <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+    </nav>
+  </footer>
+</body>
+</html>
