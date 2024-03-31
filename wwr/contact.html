@@ -1,72 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us - Rafting Company</title>
-  <link rel="stylesheet" href="styles/rafting.css">
-  <meta name="description" content="Welcome to Rafting Company! Explore thrilling rafting adventures with us. Learn about our history and plan your next trip.">
-  <meta name="author" content="Nicole">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Adventure Rafting Company</title>
+    <meta name="description" content="Get in touch with Adventure Rafting Company for inquiries, feedback, and bookings. Reach out to us for an unforgettable adventure experience.">
+    <link rel="stylesheet" href="rafting.css">
 </head>
 <body>
-  <header>
-      <img src="images/logo.png" alt="Rafting Company Logo">
-    </div>
+    <!-- Header -->
+    <header>
+        <!-- Header content -->
+        <h1>Adventure Rafting Company</h1>
+        <p>Experience the thrill of white water rafting!</p>
+    </header>
+    
+    <!-- Navigation -->
     <nav>
-      <ul>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="trips.html">Trips</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+        <!-- Navigation links -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
     </nav>
-  </header>
 
-  <main>
-    <section>
-      <h1>Contact us</h1>
-      <article>
-        <h2>send us a message</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel tellus vitae mi tristique aliquet. Nullam nec magna in odio dictum tempor.</p>
-      </article>
-    </section>
+    <!-- Main Content -->
+    <main>
+        <!-- Employee Profiles -->
+        <section class="employee-profiles">
+            <h2>Our Team</h2>
+            <div class="employee">
+                <img src="employee1.jpg" alt="Employee 1">
+                <p>John Doe - Rafting Guide</p>
+            </div>
+            <div class="employee">
+                <img src="employee2.jpg" alt="Employee 2">
+                <p>Jane Smith - Rafting Instructor</p>
+            </div>
+            <div class="employee">
+                <img src="employee3.jpg" alt="Employee 3">
+                <p>Mike Johnson - Safety Officer</p>
+            </div>
+        </section>
 
-    <section>
-      <h1>History</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel tellus vitae mi tristique aliquet. Nullam nec magna in odio dictum tempor.</p>
-    </section>
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="purpose">Purpose of Message:</label><br>
+                <input type="radio" id="general" name="purpose" value="General Inquiry" checked>
+                <label for="general">General Inquiry</label><br>
+                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                <label for="reservation">Reservation Question</label><br>
+                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                <label for="suggestion">Website Suggestion</label><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+                <input type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
 
-    <section>
-      <h2>Adventure Awaits You!</h2>
-      <figure>
-        <img src="images/rafting1.jpg" alt="Rafting Adventure 1">
-        <figcaption>Los Dientes del Diablo</figcaption>
-      </figure>
-      <figure>
-        <img src="images/rafting2.jpg" alt="Rafting Adventure 2">
-        <figcaption>Big Mallard</figcaption>
-      </figure>
-      <figure>
-        <img src="images/rafting3.jpg" alt="Rafting Adventure 3">
-        <figcaption>Half Day Adventure</figcaption>
-      </figure>
-      <figure>
-        <img src="images/rafting4.jpg" alt="Rafting Adventure 4">
-        <figcaption>Wild Rapids Experience</figcaption>
-      </figure>
-      <figure>
-        <img src="images/rafting5.jpg" alt="Rafting Adventure 5">
-        <figcaption>River Rush</figcaption>
-      </figure>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2024 Rafting Company. Designed by Nicole A. Johnston</p>
-    <nav class="sociallinks">
-      <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
-      <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
-      <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
-    </nav>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        <!-- Footer content -->
+        <p>&copy; 2024 Adventure Rafting Company. All rights reserved.</p>
+    </footer>
 </body>
 </html>
