@@ -1,87 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="description" content="Get in touch with us for inquiries, feedback, or support.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - YourSiteName</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="rafting.css">
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <img src="images/logo.png" alt="Rafting Company Logo">
-    </div>
+    <!-- Common Header -->
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <!-- Common Navigation -->
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="trips.html">Trips</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
     </nav>
-  </header>
-  <main>
-    <h1> Contact us</h1>
 
-    <h2> Send Us a Message</h2>
-
-
-    <p> Water Rafting</p>
-    <p> Phone: 999-999-9999</p>
-    <p> Email: <a href= "mailto: ">sadf</a></p>
-    <div class="map"><iframe> 
-
-
-
-    </iframe> </div>
-
-
-    <section>
-      <h1>About Our Company</h1>
-      <article>
-        <h2>Our Mission</h2>
-        <img src="images/client.jpg" alt="Happy Client">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel tellus vitae mi tristique aliquet. Nullam nec magna in odio dictum tempor.</p>
-      </article>
+    <!-- Employee Profiles -->
+    <section class="employee-profiles">
+        <div class="employee">
+            <img src="employee1.jpg" alt="Employee 1">
+            <p><strong>John Doe</strong><br>CEO</p>
+        </div>
+        <div class="employee">
+            <img src="employee2.jpg" alt="Employee 2">
+            <p><strong>Jane Smith</strong><br>Marketing Manager</p>
+        </div>
+        <div class="employee">
+            <img src="employee3.jpg" alt="Employee 3">
+            <p><strong>Michael Johnson</strong><br>Customer Support</p>
+        </div>
     </section>
 
-    <section>
-      <h1>History</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel tellus vitae mi tristique aliquet. Nullam nec magna in odio dictum tempor.</p>
+    <!-- User Comment Form -->
+    <section class="user-comment-form">
+        <h2>Contact Form</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="purpose">Purpose:</label><br>
+            <input type="radio" id="general_inquiry" name="purpose" value="General Inquiry" checked>
+            <label for="general_inquiry">General Inquiry</label><br>
+            <input type="radio" id="reservation_question" name="purpose" value="Reservation Question">
+            <label for="reservation_question">Reservation Question</label><br>
+            <input type="radio" id="website_suggestion" name="purpose" value="Website Suggestion">
+            <label for="website_suggestion">Website Suggestion</label><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Please subscribe me to the monthly newsletter</label><br><br>
+
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
     </section>
 
-    <section>
-      <h2>Adventure Awaits You!</h2>
-      <figure>
-        <img src="images/rafting1.jpg" alt="Rafting Adventure 1">
-        <figcaption>Los Dientes del Diablo</figcaption>
-      </figure>
-      <figure>
-        <img src="images/rafting2.jpg" alt="Rafting Adventure 2">
-        <figcaption>Big Mallard</figcaption>
-      </figure>
-      <figure>
-        <img src="images/rafting3.jpg" alt="Rafting Adventure 3">
-        <figcaption>Half Day Adventure</figcaption>
-      </figure>
-      <figure>
-        <img src="images/rafting4.jpg" alt="Rafting Adventure 4">
-        <figcaption>Wild Rapids Experience</figcaption>
-      </figure>
-      <figure>
-        <img src="images/rafting5.jpg" alt="Rafting Adventure 5">
-        <figcaption>River Rush</figcaption>
-      </figure>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2024 Rafting Company. Designed by Nicole A. Johnston</p>
-    <nav class="sociallinks">
-      <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
-      <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
-      <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
-    </nav>
-  </footer>
+    <!-- Common Footer -->
+    <footer>
+        <p>&copy; 2024 Rafting Adventures</p>
+    </footer>
 </body>
 </html>
