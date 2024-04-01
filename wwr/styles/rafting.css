@@ -67,3 +67,58 @@ footer {
   width: 30px;
   height: 30px;
 }
+
+.employee-profiles {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.employee {
+  text-align: center;
+  width: 30%;
+}
+
+.employee img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* User Comment Form */
+.user-comment-form {
+  margin: 50px auto;
+  width: 60%;
+}
+
+.user-comment-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.user-comment-form input[type="text"],
+.user-comment-form input[type="email"],
+.user-comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-comment-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.user-comment-form .submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-comment-form .submit-button:hover {
+  background-color: #0056b3;
+}
