@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="rafting.css">
 </head>
 <body>
-
+    <!-- Common Header -->
     <header>
         <h1>Contact Us</h1>
     </header>
 
+    <!-- Common Navigation -->
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -21,6 +22,7 @@
         </ul>
     </nav>
 
+    <!-- Employee Profiles -->
     <section class="employee-profiles">
         <div class="employee">
             <img src="employee1.jpg" alt="Employee 1">
@@ -36,7 +38,7 @@
         </div>
     </section>
 
-
+    <!-- Contact Form -->
     <section class="user-comment-form">
         <h2>Contact Form</h2>
         <form action="submit_form.php" method="POST">
@@ -46,13 +48,15 @@
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required><br><br>
 
-            <label for="purpose">Purpose:</label><br>
-            <input type="radio" id="general_inquiry" name="purpose" value="General Inquiry" checked>
-            <label for="general_inquiry">General Inquiry</label><br>
-            <input type="radio" id="reservation_question" name="purpose" value="Reservation Question">
-            <label for="reservation_question">Reservation Question</label><br>
-            <input type="radio" id="website_suggestion" name="purpose" value="Website Suggestion">
-            <label for="website_suggestion">Website Suggestion</label><br><br>
+            <fieldset>
+                <legend>Purpose:</legend>
+                <input type="radio" id="general_inquiry" name="purpose" value="General Inquiry" required>
+                <label for="general_inquiry">General Inquiry</label><br>
+                <input type="radio" id="reservation_question" name="purpose" value="Reservation Question">
+                <label for="reservation_question">Reservation Question</label><br>
+                <input type="radio" id="website_suggestion" name="purpose" value="Website Suggestion">
+                <label for="website_suggestion">Website Suggestion</label><br><br>
+            </fieldset>
 
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="4" required></textarea><br><br>
@@ -60,11 +64,17 @@
             <input type="checkbox" id="newsletter" name="newsletter">
             <label for="newsletter">Please subscribe me to the monthly newsletter</label><br><br>
 
-            <input type="submit" value="Submit" class="submit-button">
+            <button type="submit" id="submit-btn">Send Message</button>
         </form>
     </section>
 
+    <!-- Embedded Google Map -->
+    <section class="google-map">
+        <h2>Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2dLongitude!3dLatitude!4m5!3m4!1s0x0:0x0!8m2!3dLatitude!4dLongitude" width="600" height="450" allowfullscreen></iframe>
+    </section>
 
+    <!-- Common Footer -->
     <footer>
         <p>&copy; 2024 Rafting Adventures</p>
     </footer>
