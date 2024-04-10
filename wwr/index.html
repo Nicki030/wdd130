@@ -1,12 +1,13 @@
+
+Copy code
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nicole Johnston | WDD 130</title>
-  
-  <meta name="description" content="Nicole A. Johnston's BYU-Idaho WDD 130 course home page..!">
-  <meta name="author" content="Nicole Johnston">
+  <title>White Water Rafting Adventures</title>
+  <meta name="description" content="Experience thrilling white water rafting adventures with us!">
+  <meta name="author" content="Your Name">
   <link rel="stylesheet" href="styles/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,36 +17,71 @@
   <header>
     <nav class="nav-links">
       <a href="#">Home</a>
-      <a href="wwr/about.html">Rafting Website</a>
-      <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
-      <a href="https://linkedin.com">LinkedIn</a>
-      <a href="https://facebook.com">Facebook</a>
+      <a href="about.html">About</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
   <div class="grid">
     <main>
-      <h1>Nicole Johnston | WDD 130</h1>
-      <img src="images/Nicole.jpg" alt="Hello, my name is Nicole A. Johnston" width="200">
-      <p>"Hello, let me introduce myself.. My name is Nicole A. Johnston... which I live in Del Rio,  I have a passion for all things craft-related, from intricate cut-out sheets to a variety of other creative endeavors. Crafting allows me to explore my artistic side and bring my ideas to life. Whether it's designing unique patterns, experimenting with colors, or trying new techniques!"</p>
-    
-      <ul class="box indent">
-        <li><a href="https://www.churchofjesuschrist.org/temples/details/philadelphia-pennsylvania-temple" target="_blank">Philadelphia Pennsylvania Temple</a></li>
-        <li><a href="https://www.churchofjesuschrist.org/temples/details/paris-france-temple" target="_blank">Paris France Temple</a></li>
-        <li><a href="https://www.churchofjesuschrist.org/temples/details/lima-peru-los-olivos-temple" target="_blank">Berlin Germany Temple</a></li>
-      </ul>
+      <section id="hero">
+        <div class="hero-content">
+          <h1>Welcome to White Water Rafting Adventures</h1>
+          <img src="images/rafting_hero.jpg" alt="White Water Rafting">
+        </div>
+      </section>
+
+      <section id="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="#" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+
+      <section id="cta">
+        <h2>Book Your Adventure Now!</h2>
+        <p>Ready for an adrenaline-packed experience? Check out our thrilling trips!</p>
+        <a href="trips.html" class="btn">View Trips</a>
+      </section>
+
+      <section id="purpose">
+        <h2>Discover the Thrill of White Water Rafting</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="images/rafting1.jpg" alt="Rafting Image 1">
+            <h3>Experience the Thrill</h3>
+            <p>Join us for an exhilarating journey down roaring rapids!</p>
+          </div>
+          <div class="grid-item">
+            <img src="images/rafting2.jpg" alt="Rafting Image 2">
+            <h3>Connect with Nature</h3>
+            <p>Discover the beauty of untouched wilderness as you paddle through stunning landscapes.</p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <aside class="box">
-      <h2>Del Rio</h2>
-      <img src="images/DelRio.png" alt="Del Rio Fun Fact:">
-      <p>"Del Rio, Texas is that it has a cool museum called the Whitehead Memorial Museum. This museum has lots of old stuff from the history of the area. It's named after a famous local guy named John N. Whitehead, who loved collecting things. When you visit, you can learn all about the interesting history and culture of Del Rio and the nearby places. It's like taking a trip back in time!"</p>
+      <h2>Why Choose Us?</h2>
+      <p>We are passionate about providing the ultimate white water rafting experience for adventure enthusiasts.</p>
+      <p>Here's what sets us apart:</p>
+      <ul>
+        <li>Expert Guides</li>
+        <li>State-of-the-art Equipment</li>
+        <li>Customizable Trips for All Skill Levels</li>
+        <li>Safety First Approach</li>
+        <li>Unforgettable Scenery</li>
+      </ul>
     </aside>
   </div>
   
-  <!-- Last modified: March 15, 2024 -->
+  <!-- Include wireframe design sketch link in the footer -->
   <footer>
-    <p>©2024 | Nicole A. Johnston | Del Rio, Texas </p>
+    <p>©2024 | White Water Rafting Adventures</p>
+    <a href="home_wireframe.jpg">Home Page Wireframe</a>
   </footer>
 </body>
 </html>
