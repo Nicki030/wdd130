@@ -9,7 +9,7 @@ header {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  grid-column-gap: 20px; 
+  grid-column-gap: 20px;
 }
 
 .logo img {
